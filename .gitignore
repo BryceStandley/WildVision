@@ -1,0 +1,55 @@
+# This file is used to ignore files which should not be pushed to the repository.
+
+# Backend API Ignore files
+firebase-adminsdk.json
+3D Generation/ICT302-Animals-Generator-API/ICT302-Animals-Generator-API/bin/
+3D Generation/ICT302-Animals-Generator-API/ICT302-Animals-Generator-API/obj/
+3D Generation/doxygen/
+
+# Backend Logs
+*.log
+
+# Jetbrains idea files
+.idea
+# Compiled files
+Backend API/ICT302-BackendAPI/obj/
+
+*.pth
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.flv
+*.wmv
+*.3gp
+*.webm
+
+Backend API/ICT302-BackendAPI/ICT302-BackendAPI/obj/
+Backend API/ICT302-BackendAPI/ICT302-BackendAPI/bin/
+
+Backend API/ICT302-BackendAPI/ICT302-BackendAPI.Database/bin/
+Backend API/ICT302-BackendAPI/ICT302-BackendAPI.Database/obj/
+
+Backend API/ICT302-BackendAPI/ICT302-BackendAPI.API/bin/
+Backend API/ICT302-BackendAPI/ICT302-BackendAPI.API/obj/
+
+Backend API/doxygen/
+
+# Visual Studio Ignore Files
+.vs
+
+# Frontend API Ignore files
+
+# Node modules
+/node_modules
+/dist
+
+#ignore local path for uploading videos
+/Backend API/ICT302-BackendAPI/ICT302-BackendAPI/C:/
+
+
+Backend API/ICT302-BackendAPI/obj/
+
+FrontEnd Web Interface/ict302-animals-frontend/WildVision-Frontend-ReactJS.zip
+
+FrontEnd Web Interface/ict302-animals-frontend/WildVision-Frontend-ReactJS-Source.zip

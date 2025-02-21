@@ -1,0 +1,43 @@
+import React, {useContext} from 'react';
+
+import {FrontendContext} from "../Internals/ContextStore";
+
+/**
+ * A React functional component named `Feedback`.
+ * This component renders a feedback section with a heading and a paragraph.
+ *
+ * @component
+ * @example
+ *
+ * // JSX
+ * <Feedback />
+ *
+ * This component uses the `useContext` hook from React to consume the `FrontendContext` context.
+ *
+ * @returns {JSX.Element} The `Feedback` component.
+ */
+const Feedback: React.FC = () => {
+    const frontendContext = useContext(FrontendContext);
+
+    return (
+        <div>
+            <h1>Feedback</h1>
+            <p>
+                Pellentesque habitant morbi tristique senectus et netus et malesuada
+                fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
+                ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam
+                egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend
+                leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum
+                erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean
+                fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci,
+                sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar
+                facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor
+                neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat
+                volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis
+                luctus, metus
+            </p>
+        </div>
+    );
+}
+
+export default Feedback;
